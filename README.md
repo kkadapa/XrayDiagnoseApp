@@ -53,4 +53,4 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ## License
 
-This project is for
+This project is for educational purposes.
