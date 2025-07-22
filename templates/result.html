@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>X-ray Diagnosis Result</title>
+</head>
+<body>
+    <h1>Diagnosis Result</h1>
+    <p><strong>Diagnosis:</strong> {{ diagnosis }}</p>
+    <p><strong>Uploaded Image:</strong></p>
+    <img src="{{ url_for('uploaded_file', filename=filename) }}" alt="Uploaded X-ray" style="max-width:400px;">
+    <a href="/">Upload another image</a>
+</body>
+</html> 
